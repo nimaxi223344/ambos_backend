@@ -166,3 +166,8 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
 }
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://ambosbackend-production.up.railway.app",
+    "https://ambosfrontend-production.up.railway.app",
+]
