@@ -34,8 +34,11 @@ SECRET_KEY = config('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = ['https://ambosbackend-production.up.railway.app', 'https://ambosfrontend-production.up.railway.app/']
-
+ALLOWED_HOSTS = [
+    "ambosbackend-production.up.railway.app",
+    "localhost",
+    "127.0.0.1",
+]
 
 # Application definition
 
